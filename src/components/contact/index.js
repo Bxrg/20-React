@@ -10,7 +10,7 @@ const ContactInfo = () => {
           <hr class="solid bg-dark" />
           <img
             style={{ height: "250px" }}
-            src="https://drive.google.com/file/d/1tjNGuv_LULX8pEf0Ab581Pd6vhpYfaOT/view?usp=sharing"
+            src="./assets/images/me.png"
             class="pr-4 pb-3 img-fluid"
             alt="Noah Borg"
           />
@@ -20,7 +20,7 @@ const ContactInfo = () => {
           <hr className="hr-light w-25" />
           <h3 style={{fontWeight: "bolder "}}>CELL PHONE</h3>
           <hr className="hr-dark w-25" />
-          <a href="tel:313-398-9947"> MDBIcon icon="phone-alt" /> 313-398-9947</a>
+          <a href="tel:313-398-9947"><MDBIcon icon="phone-alt" /> 313-398-9947</a>
           <hr className="hr-light w-25" />
           <h3 style={{fontWeight: "bolder"}}>EMAIL</h3>
           <hr className="hr-dark w-25" />

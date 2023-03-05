@@ -20,25 +20,25 @@ function Navbar() {
       </MDBNavbarBrand>
       <MDBNavbarNav right>
         <MDBNavItem>
-          <MDBNavLink className="waves-effect waves-light" to="/about">
+          <MDBNavLink to="/about">
             <MDBIcon icon="home" className="mr-1" />
             About Me
           </MDBNavLink>
         </MDBNavItem>
         <MDBNavItem>
-          <MDBNavLink className="waves-effect waves-light" to="/portfolio">
+          <MDBNavLink to="/portfolio">
             <MDBIcon icon="code" className="mr-1" />
             Applications
           </MDBNavLink>
         </MDBNavItem>
         <MDBNavItem>
-          <MDBNavLink className="waves-effect waves-light" to="/resume">
+          <MDBNavLink to="/resume">
             <MDBIcon icon="file" className="mr-1" />
             Resume
           </MDBNavLink>
         </MDBNavItem>
         <MDBNavItem>
-          <MDBNavLink className="waves-effect waves-light" to="/contact">
+          <MDBNavLink to="/contact">
             <MDBIcon icon="envelope" className="mr-1" />
             Contact Me!
           </MDBNavLink>
